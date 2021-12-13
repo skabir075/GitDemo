@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36227" started-at="2021-12-09T20:18:19 IST" finished-at="2021-12-09T20:18:56 IST">
+    <groups>
+    </groups>
+    <test name="ValidateTitle" duration-ms="31304" started-at="2021-12-09T20:18:19 IST" finished-at="2021-12-09T20:18:51 IST">
+      <class name="Maven2.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Maven2.ValidateTitle@4e1d422d]" name="initialize" is-config="true" duration-ms="30002" started-at="2021-12-09T20:18:19 IST" finished-at="2021-12-09T20:18:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:Maven2.ValidateTitle@4e1d422d]" name="validateTitle" duration-ms="345" started-at="2021-12-09T20:18:49 IST" finished-at="2021-12-09T20:18:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Maven2.ValidateTitle@4e1d422d]" name="teardown" is-config="true" duration-ms="897" started-at="2021-12-09T20:18:50 IST" finished-at="2021-12-09T20:18:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Maven2.ValidateTitle -->
+    </test> <!-- ValidateTitle -->
+    <test name="HomePage" duration-ms="36227" started-at="2021-12-09T20:18:19 IST" finished-at="2021-12-09T20:18:56 IST">
+      <class name="Maven2.HomePage">
+        <test-method status="FAIL" signature="initialize()[pri:0, instance:Maven2.HomePage@67b92f0a]" name="initialize" is-config="true" duration-ms="36202" started-at="2021-12-09T20:18:19 IST" finished-at="2021-12-09T20:18:56 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Users\pc\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LAPTOP-J4HJIQT7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x01016903+2517251]
+Ordinal0 [0x00FAF8E1+2095329]
+Ordinal0 [0x00EB2848+1058888]
+Ordinal0 [0x00ECDC70+1170544]
+Ordinal0 [0x00ECA2CF+1155791]
+Ordinal0 [0x00EFAAAF+1354415]
+Ordinal0 [0x00EFA71A+1353498]
+Ordinal0 [0x00EF639B+1336219]
+Ordinal0 [0x00ED27A7+1189799]
+Ordinal0 [0x00ED3609+1193481]
+GetHandleVerifier [0x011A5904+1577972]
+GetHandleVerifier [0x01250B97+2279047]
+GetHandleVerifier [0x010A6D09+534521]
+GetHandleVerifier [0x010A5DB9+530601]
+Ordinal0 [0x00FB4FF9+2117625]
+Ordinal0 [0x00FB98A8+2136232]
+Ordinal0 [0x00FB99E2+2136546]
+Ordinal0 [0x00FC3541+2176321]
+BaseThreadInitThunk [0x771CFA29+25]
+RtlGetAppContainerNamedObjectPath [0x778E7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x778E7A6E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Users\pc\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LAPTOP-J4HJIQT7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x01016903+2517251]
+Ordinal0 [0x00FAF8E1+2095329]
+Ordinal0 [0x00EB2848+1058888]
+Ordinal0 [0x00ECDC70+1170544]
+Ordinal0 [0x00ECA2CF+1155791]
+Ordinal0 [0x00EFAAAF+1354415]
+Ordinal0 [0x00EFA71A+1353498]
+Ordinal0 [0x00EF639B+1336219]
+Ordinal0 [0x00ED27A7+1189799]
+Ordinal0 [0x00ED3609+1193481]
+GetHandleVerifier [0x011A5904+1577972]
+GetHandleVerifier [0x01250B97+2279047]
+GetHandleVerifier [0x010A6D09+534521]
+GetHandleVerifier [0x010A5DB9+530601]
+Ordinal0 [0x00FB4FF9+2117625]
+Ordinal0 [0x00FB98A8+2136232]
+Ordinal0 [0x00FB99E2+2136546]
+Ordinal0 [0x00FC3541+2176321]
+BaseThreadInitThunk [0x771CFA29+25]
+RtlGetAppContainerNamedObjectPath [0x778E7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x778E7A6E+238]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at resources.base.InitializeDriver(base.java:30)
+at Maven2.HomePage.initialize(HomePage.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="basePageNavigationBar(java.lang.String, java.lang.String)[pri:0, instance:Maven2.HomePage@67b92f0a]" name="basePageNavigationBar" duration-ms="0" started-at="2021-12-09T20:18:56 IST" data-provider="getData" finished-at="2021-12-09T20:18:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Users\pc\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LAPTOP-J4HJIQT7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x01016903+2517251]
+Ordinal0 [0x00FAF8E1+2095329]
+Ordinal0 [0x00EB2848+1058888]
+Ordinal0 [0x00ECDC70+1170544]
+Ordinal0 [0x00ECA2CF+1155791]
+Ordinal0 [0x00EFAAAF+1354415]
+Ordinal0 [0x00EFA71A+1353498]
+Ordinal0 [0x00EF639B+1336219]
+Ordinal0 [0x00ED27A7+1189799]
+Ordinal0 [0x00ED3609+1193481]
+GetHandleVerifier [0x011A5904+1577972]
+GetHandleVerifier [0x01250B97+2279047]
+GetHandleVerifier [0x010A6D09+534521]
+GetHandleVerifier [0x010A5DB9+530601]
+Ordinal0 [0x00FB4FF9+2117625]
+Ordinal0 [0x00FB98A8+2136232]
+Ordinal0 [0x00FB99E2+2136546]
+Ordinal0 [0x00FC3541+2176321]
+BaseThreadInitThunk [0x771CFA29+25]
+RtlGetAppContainerNamedObjectPath [0x778E7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x778E7A6E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Users\pc\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LAPTOP-J4HJIQT7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x01016903+2517251]
+Ordinal0 [0x00FAF8E1+2095329]
+Ordinal0 [0x00EB2848+1058888]
+Ordinal0 [0x00ECDC70+1170544]
+Ordinal0 [0x00ECA2CF+1155791]
+Ordinal0 [0x00EFAAAF+1354415]
+Ordinal0 [0x00EFA71A+1353498]
+Ordinal0 [0x00EF639B+1336219]
+Ordinal0 [0x00ED27A7+1189799]
+Ordinal0 [0x00ED3609+1193481]
+GetHandleVerifier [0x011A5904+1577972]
+GetHandleVerifier [0x01250B97+2279047]
+GetHandleVerifier [0x010A6D09+534521]
+GetHandleVerifier [0x010A5DB9+530601]
+Ordinal0 [0x00FB4FF9+2117625]
+Ordinal0 [0x00FB98A8+2136232]
+Ordinal0 [0x00FB99E2+2136546]
+Ordinal0 [0x00FC3541+2176321]
+BaseThreadInitThunk [0x771CFA29+25]
+RtlGetAppContainerNamedObjectPath [0x778E7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x778E7A6E+238]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at resources.base.InitializeDriver(base.java:30)
+at Maven2.HomePage.initialize(HomePage.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigationBar -->
+        <test-method status="SKIP" signature="basePageNavigationBar(java.lang.String, java.lang.String)[pri:0, instance:Maven2.HomePage@67b92f0a]" name="basePageNavigationBar" duration-ms="0" started-at="2021-12-09T20:18:56 IST" data-provider="getData" finished-at="2021-12-09T20:18:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Users\pc\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LAPTOP-J4HJIQT7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x01016903+2517251]
+Ordinal0 [0x00FAF8E1+2095329]
+Ordinal0 [0x00EB2848+1058888]
+Ordinal0 [0x00ECDC70+1170544]
+Ordinal0 [0x00ECA2CF+1155791]
+Ordinal0 [0x00EFAAAF+1354415]
+Ordinal0 [0x00EFA71A+1353498]
+Ordinal0 [0x00EF639B+1336219]
+Ordinal0 [0x00ED27A7+1189799]
+Ordinal0 [0x00ED3609+1193481]
+GetHandleVerifier [0x011A5904+1577972]
+GetHandleVerifier [0x01250B97+2279047]
+GetHandleVerifier [0x010A6D09+534521]
+GetHandleVerifier [0x010A5DB9+530601]
+Ordinal0 [0x00FB4FF9+2117625]
+Ordinal0 [0x00FB98A8+2136232]
+Ordinal0 [0x00FB99E2+2136546]
+Ordinal0 [0x00FC3541+2176321]
+BaseThreadInitThunk [0x771CFA29+25]
+RtlGetAppContainerNamedObjectPath [0x778E7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x778E7A6E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Users\pc\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LAPTOP-J4HJIQT7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x01016903+2517251]
+Ordinal0 [0x00FAF8E1+2095329]
+Ordinal0 [0x00EB2848+1058888]
+Ordinal0 [0x00ECDC70+1170544]
+Ordinal0 [0x00ECA2CF+1155791]
+Ordinal0 [0x00EFAAAF+1354415]
+Ordinal0 [0x00EFA71A+1353498]
+Ordinal0 [0x00EF639B+1336219]
+Ordinal0 [0x00ED27A7+1189799]
+Ordinal0 [0x00ED3609+1193481]
+GetHandleVerifier [0x011A5904+1577972]
+GetHandleVerifier [0x01250B97+2279047]
+GetHandleVerifier [0x010A6D09+534521]
+GetHandleVerifier [0x010A5DB9+530601]
+Ordinal0 [0x00FB4FF9+2117625]
+Ordinal0 [0x00FB98A8+2136232]
+Ordinal0 [0x00FB99E2+2136546]
+Ordinal0 [0x00FC3541+2176321]
+BaseThreadInitThunk [0x771CFA29+25]
+RtlGetAppContainerNamedObjectPath [0x778E7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x778E7A6E+238]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at resources.base.InitializeDriver(base.java:30)
+at Maven2.HomePage.initialize(HomePage.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigationBar -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:Maven2.HomePage@67b92f0a]" name="teardown" is-config="true" duration-ms="-1639061336128" started-at="2021-12-09T20:18:56 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Maven2.HomePage -->
+    </test> <!-- HomePage -->
+  </suite> <!-- Suite -->
+</testng-results>

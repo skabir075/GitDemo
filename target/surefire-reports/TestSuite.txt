@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 37.705 s <<< FAILURE! - in TestSuite
+Maven2.HomePage.initialize  Time elapsed: 6.092 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Users\pc\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LAPTOP-J4HJIQT7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01016903+2517251]
+	Ordinal0 [0x00FAF8E1+2095329]
+	Ordinal0 [0x00EB2848+1058888]
+	Ordinal0 [0x00ECDC70+1170544]
+	Ordinal0 [0x00ECA2CF+1155791]
+	Ordinal0 [0x00EFAAAF+1354415]
+	Ordinal0 [0x00EFA71A+1353498]
+	Ordinal0 [0x00EF639B+1336219]
+	Ordinal0 [0x00ED27A7+1189799]
+	Ordinal0 [0x00ED3609+1193481]
+	GetHandleVerifier [0x011A5904+1577972]
+	GetHandleVerifier [0x01250B97+2279047]
+	GetHandleVerifier [0x010A6D09+534521]
+	GetHandleVerifier [0x010A5DB9+530601]
+	Ordinal0 [0x00FB4FF9+2117625]
+	Ordinal0 [0x00FB98A8+2136232]
+	Ordinal0 [0x00FB99E2+2136546]
+	Ordinal0 [0x00FC3541+2176321]
+	BaseThreadInitThunk [0x771CFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x778E7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x778E7A6E+238]
+
+	at Maven2.HomePage.initialize(HomePage.java:22)
+
